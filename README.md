@@ -39,8 +39,8 @@ k3d                          2.11.0
 
 
 ```bash
-git clone https://github.com/hoge/~
-cd examples
+git clone https://github.com/jiro-mk/Mediapipe_3ddraw.git
+cd mediapipe_3ddraw
 python demo.py
 ```
 
