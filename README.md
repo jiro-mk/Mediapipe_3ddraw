@@ -25,13 +25,17 @@ MediaPipeを実行して得られた手のランドマークをK3Dで可視化�
 # Requirement
 
 mediapipe                    0.8.9.1
+
 opencv-python                4.5.5.62   
+
 Tensorflow                   2.3.0 or Later
+
 tf-nightly                   2.5.0.dev or later 
-jupyterlab                   3.2.8               
-jupyterlab-pygments          0.1.2               
-jupyterlab-server            2.10.3              
-jupyterlab-widgets           1.0.2               
+
+jupyterlab                   3.2.8 
+          
+jupyterlab-widgets           1.0.2   
+
 k3d                          2.11.0  
 
 
