@@ -46,6 +46,7 @@ python demo.py
 
 
 MediaPipeで取得したランドマークの可視化（jupyter notebook）
+
 draw_hand.ipynb
 
 
