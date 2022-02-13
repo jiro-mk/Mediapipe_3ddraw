@@ -5,7 +5,7 @@ MediaPipeを実行して得られた手のランドマークをK3Dで可視化�
 
 # DEMO
 
-![demo_1](https://user-images.githubusercontent.com/93971055/153739242-de8c6ce9-5302-49af-9b9f-347dfa11ab2a.gif)
+![demo](https://user-images.githubusercontent.com/93971055/153741322-bccf5b26-d3c7-40b2-a208-f687a6f3d6e3.gif)
 
 
 # Directory
