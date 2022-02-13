@@ -1,1 +1,65 @@
 # Mediapipe_3ddraw
+MediaPipeを実行して得られた手のランドマークをK3Dで可視化します。
+
+3D表現で可視化するので様々な方向から手の動きを見ることができます。
+
+# DEMO
+
+![demo_1](https://user-images.githubusercontent.com/93971055/153739242-de8c6ce9-5302-49af-9b9f-347dfa11ab2a.gif)
+
+
+# Directory
+```bash
+│  demo.py
+│  draw_hand.ipynb
+│ 
+├─result
+│  └─csv
+│     │ 
+│     └─ landmark.csv
+│          
+└─utils
+    └─cvfpscalc.py
+```
+
+# Requirement
+
+mediapipe                    0.8.9.1
+opencv-python                4.5.5.62   
+Tensorflow                   2.3.0 or Later
+tf-nightly                   2.5.0.dev or later 
+jupyterlab                   3.2.8               
+jupyterlab-pygments          0.1.2               
+jupyterlab-server            2.10.3              
+jupyterlab-widgets           1.0.2               
+k3d                          2.11.0  
+
+
+# Usage
+
+
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
+
+
+MediaPipeで取得したランドマークの可視化（jupyter notebook）
+draw_hand.ipynb
+
+
+# Note
+MediaPipeで取得したランドマークは以下のようにcsvに保存されます。
+
+0～20は左手、21～は右手のランドマークになります。
+
+0_x：WRIST (Left), 0_Y：WRIST (Left), 0_Z：WRIST (Left)　… 21_x：WRIST (Right), 21_Y：WRIST (Right), 21_Z：WRIST (Right)
+
+![image](https://user-images.githubusercontent.com/93971055/153736893-bf5fa214-3a97-4377-b0a4-fb30c2d2910e.png)
+
+![image](https://user-images.githubusercontent.com/93971055/153736934-62549cb5-fe00-494c-a666-599715d30ff1.png)
+
+# Author
+
+jiro-mk
